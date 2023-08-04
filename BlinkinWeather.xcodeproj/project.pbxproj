@@ -14,6 +14,23 @@
 		76516C3A2A7D33150018B461 /* BlinkinWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516C392A7D33150018B461 /* BlinkinWeatherTests.swift */; };
 		76516C442A7D33150018B461 /* BlinkinWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516C432A7D33150018B461 /* BlinkinWeatherUITests.swift */; };
 		76516C462A7D33150018B461 /* BlinkinWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516C452A7D33150018B461 /* BlinkinWeatherUITestsLaunchTests.swift */; };
+		76516CDD2A7D7D360018B461 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CC72A7D7D360018B461 /* LocationModel.swift */; };
+		76516CDE2A7D7D360018B461 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CC82A7D7D360018B461 /* LocationService.swift */; };
+		76516CDF2A7D7D360018B461 /* URLSession+APISession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CCB2A7D7D360018B461 /* URLSession+APISession.swift */; };
+		76516CE02A7D7D360018B461 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CCD2A7D7D360018B461 /* APIError.swift */; };
+		76516CE12A7D7D360018B461 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CCE2A7D7D360018B461 /* APIClient.swift */; };
+		76516CE22A7D7D360018B461 /* APIHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CCF2A7D7D360018B461 /* APIHTTPMethod.swift */; };
+		76516CE32A7D7D360018B461 /* APIHTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CD02A7D7D360018B461 /* APIHTTPHeaders.swift */; };
+		76516CE42A7D7D360018B461 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CD12A7D7D360018B461 /* APIRequest.swift */; };
+		76516CE52A7D7D360018B461 /* APIContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CD22A7D7D360018B461 /* APIContext.swift */; };
+		76516CE62A7D7D360018B461 /* SecureKeysClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CD42A7D7D360018B461 /* SecureKeysClient.swift */; };
+		76516CE72A7D7D360018B461 /* OpenWeatherEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CD72A7D7D360018B461 /* OpenWeatherEndpoint.swift */; };
+		76516CE82A7D7D360018B461 /* OpenWeatherCurrentLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CDA2A7D7D360018B461 /* OpenWeatherCurrentLocationResponse.swift */; };
+		76516CE92A7D7D360018B461 /* OpenWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CDB2A7D7D360018B461 /* OpenWeatherService.swift */; };
+		76516CEA2A7D7D360018B461 /* OpenWeatherContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CDC2A7D7D360018B461 /* OpenWeatherContext.swift */; };
+		76516CEE2A7D7F6A0018B461 /* CurrentLocationWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CED2A7D7F6A0018B461 /* CurrentLocationWeatherView.swift */; };
+		76516CF12A7D81170018B461 /* CurrentLocationWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CF02A7D81170018B461 /* CurrentLocationWeatherViewModel.swift */; };
+		76516CF52A7DA7A70018B461 /* WeatherInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76516CF42A7DA7A70018B461 /* WeatherInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +62,24 @@
 		76516C3F2A7D33150018B461 /* BlinkinWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkinWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76516C432A7D33150018B461 /* BlinkinWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkinWeatherUITests.swift; sourceTree = "<group>"; };
 		76516C452A7D33150018B461 /* BlinkinWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkinWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76516CC72A7D7D360018B461 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		76516CC82A7D7D360018B461 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		76516CCB2A7D7D360018B461 /* URLSession+APISession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+APISession.swift"; sourceTree = "<group>"; };
+		76516CCD2A7D7D360018B461 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		76516CCE2A7D7D360018B461 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		76516CCF2A7D7D360018B461 /* APIHTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHTTPMethod.swift; sourceTree = "<group>"; };
+		76516CD02A7D7D360018B461 /* APIHTTPHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHTTPHeaders.swift; sourceTree = "<group>"; };
+		76516CD12A7D7D360018B461 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		76516CD22A7D7D360018B461 /* APIContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIContext.swift; sourceTree = "<group>"; };
+		76516CD42A7D7D360018B461 /* SecureKeysClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureKeysClient.swift; sourceTree = "<group>"; };
+		76516CD72A7D7D360018B461 /* OpenWeatherEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherEndpoint.swift; sourceTree = "<group>"; };
+		76516CDA2A7D7D360018B461 /* OpenWeatherCurrentLocationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherCurrentLocationResponse.swift; sourceTree = "<group>"; };
+		76516CDB2A7D7D360018B461 /* OpenWeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherService.swift; sourceTree = "<group>"; };
+		76516CDC2A7D7D360018B461 /* OpenWeatherContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherContext.swift; sourceTree = "<group>"; };
+		76516CED2A7D7F6A0018B461 /* CurrentLocationWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationWeatherView.swift; sourceTree = "<group>"; };
+		76516CF02A7D81170018B461 /* CurrentLocationWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationWeatherViewModel.swift; sourceTree = "<group>"; };
+		76516CF22A7D9A490018B461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		76516CF42A7DA7A70018B461 /* WeatherInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +132,12 @@
 			children = (
 				76516C272A7D33130018B461 /* BlinkinWeatherApp.swift */,
 				76516C292A7D33130018B461 /* ContentView.swift */,
+				76516CEF2A7D81010018B461 /* Modules */,
+				76516CF32A7DA7890018B461 /* Views */,
+				76516CC32A7D7D350018B461 /* Core */,
 				76516C2B2A7D33150018B461 /* Assets.xcassets */,
 				76516C2D2A7D33150018B461 /* BlinkinWeather.entitlements */,
+				76516CF22A7D9A490018B461 /* Info.plist */,
 				76516C2E2A7D33150018B461 /* Preview Content */,
 			);
 			path = BlinkinWeather;
@@ -127,6 +166,108 @@
 				76516C452A7D33150018B461 /* BlinkinWeatherUITestsLaunchTests.swift */,
 			);
 			path = BlinkinWeatherUITests;
+			sourceTree = "<group>";
+		};
+		76516CC32A7D7D350018B461 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				76516CD62A7D7D360018B461 /* OpenWeather */,
+				76516CC52A7D7D360018B461 /* Location */,
+				76516CC92A7D7D360018B461 /* API */,
+				76516CD32A7D7D360018B461 /* Keys */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		76516CC52A7D7D360018B461 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				76516CC82A7D7D360018B461 /* LocationService.swift */,
+				76516CC62A7D7D360018B461 /* Model */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		76516CC62A7D7D360018B461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76516CC72A7D7D360018B461 /* LocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76516CC92A7D7D360018B461 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				76516CCC2A7D7D360018B461 /* Client */,
+				76516CCA2A7D7D360018B461 /* Extension */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		76516CCA2A7D7D360018B461 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				76516CCB2A7D7D360018B461 /* URLSession+APISession.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		76516CCC2A7D7D360018B461 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				76516CCD2A7D7D360018B461 /* APIError.swift */,
+				76516CCE2A7D7D360018B461 /* APIClient.swift */,
+				76516CCF2A7D7D360018B461 /* APIHTTPMethod.swift */,
+				76516CD02A7D7D360018B461 /* APIHTTPHeaders.swift */,
+				76516CD12A7D7D360018B461 /* APIRequest.swift */,
+				76516CD22A7D7D360018B461 /* APIContext.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		76516CD32A7D7D360018B461 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				76516CD42A7D7D360018B461 /* SecureKeysClient.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		76516CD62A7D7D360018B461 /* OpenWeather */ = {
+			isa = PBXGroup;
+			children = (
+				76516CDB2A7D7D360018B461 /* OpenWeatherService.swift */,
+				76516CDC2A7D7D360018B461 /* OpenWeatherContext.swift */,
+				76516CD72A7D7D360018B461 /* OpenWeatherEndpoint.swift */,
+				76516CD82A7D7D360018B461 /* Model */,
+			);
+			path = OpenWeather;
+			sourceTree = "<group>";
+		};
+		76516CD82A7D7D360018B461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76516CDA2A7D7D360018B461 /* OpenWeatherCurrentLocationResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76516CEF2A7D81010018B461 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				76516CED2A7D7F6A0018B461 /* CurrentLocationWeatherView.swift */,
+				76516CF02A7D81170018B461 /* CurrentLocationWeatherViewModel.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		76516CF32A7DA7890018B461 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76516CF42A7DA7A70018B461 /* WeatherInformationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +401,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				76516C2A2A7D33130018B461 /* ContentView.swift in Sources */,
+				76516CEE2A7D7F6A0018B461 /* CurrentLocationWeatherView.swift in Sources */,
+				76516CE22A7D7D360018B461 /* APIHTTPMethod.swift in Sources */,
+				76516CE92A7D7D360018B461 /* OpenWeatherService.swift in Sources */,
+				76516CE52A7D7D360018B461 /* APIContext.swift in Sources */,
+				76516CE62A7D7D360018B461 /* SecureKeysClient.swift in Sources */,
+				76516CF12A7D81170018B461 /* CurrentLocationWeatherViewModel.swift in Sources */,
+				76516CE32A7D7D360018B461 /* APIHTTPHeaders.swift in Sources */,
+				76516CE12A7D7D360018B461 /* APIClient.swift in Sources */,
+				76516CEA2A7D7D360018B461 /* OpenWeatherContext.swift in Sources */,
+				76516CDD2A7D7D360018B461 /* LocationModel.swift in Sources */,
 				76516C282A7D33130018B461 /* BlinkinWeatherApp.swift in Sources */,
+				76516CE72A7D7D360018B461 /* OpenWeatherEndpoint.swift in Sources */,
+				76516CDE2A7D7D360018B461 /* LocationService.swift in Sources */,
+				76516CF52A7DA7A70018B461 /* WeatherInformationView.swift in Sources */,
+				76516CE82A7D7D360018B461 /* OpenWeatherCurrentLocationResponse.swift in Sources */,
+				76516CDF2A7D7D360018B461 /* URLSession+APISession.swift in Sources */,
+				76516CE42A7D7D360018B461 /* APIRequest.swift in Sources */,
+				76516CE02A7D7D360018B461 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -419,6 +579,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlinkinWeather/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blinkin Weather";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -427,8 +590,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -437,7 +599,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blinkinweather.BlinkinWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,6 +621,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlinkinWeather/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blinkin Weather";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -465,8 +632,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -475,7 +641,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blinkinweather.BlinkinWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
